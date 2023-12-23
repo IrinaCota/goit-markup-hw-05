@@ -491,7 +491,7 @@
       <div class="modal">
         <button class="modal-btn" type="button" aria-label="Modal close button">
           <svg class="close-icon" width="8" height="8">
-            <use href="/images/icons.svg#icon-close-black"></use>
+            <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
         <p class="modal-caption">
@@ -499,10 +499,10 @@
         </p>
         <form class="form" name="modal-contacts" autocomplete="off">
           <div class="form-inputs">
-            <label for="user_name" class="form-label"> Name </label>
+            <label for="user-name" class="form-label"> Name </label>
             <div class="input-icons">
               <input
-                id="user_name"
+                id="user-name"
                 class="form-input"
                 type="text"
                 name="username"
@@ -529,10 +529,10 @@
           </div>
 
           <div class="form-inputs">
-            <label for="user_email" class="form-label"> Email </label>
+            <label for="user-email" class="form-label"> Email </label>
             <div class="input-icons">
               <input
-                id="user_email"
+                id="user-email"
                 class="form-input"
                 type="email"
                 name="user-email"
@@ -543,7 +543,7 @@
             </div>
           </div>
 
-          <div  class="form-inputs">
+          <div class="form-input-user-coment">
             <label for="user-comment" class="form-label"> Comment </label>
             <textarea
               id="user-comment"
@@ -556,9 +556,16 @@
         </form>
 
         <div class="checkbox-text">
-          <input type="checkbox" name="terms-conditions" class="checkbox" />
+          <input 
+          id="user-privacy"
+          type="checkbox" 
+          name="user-privacy"
+          value="true"
+          class="checkbox" />
+          <label>
           I accept the terms and conditions of the
           <span class="privacy-police">Privacy Policy</span>
+          </label>
         </div>
 
         <button type="submit" class="submit-btn">Send</button>
