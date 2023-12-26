@@ -554,18 +554,24 @@
             ></textarea>
           </div>
         
-        <div class="checkbox-text">
+        
+          <label class="form-agreement">
           <input 
           id="user-privacy"
           type="checkbox" 
           name="user-privacy"
-          value="true"
-          class="checkbox" />
-          <label for="user-privacy" class="user-privacy">
+          value="false"
+          class="checkbox"
+          visually-hidden />
+          <span class="form-agreement-checkbox">
+           <svg class="icon-checked" height="8" width="10">
+              <use href="./images/icons.svg#icon-checked"></use>
+            </svg> 
+          </span>            
           I accept the terms and conditions of the
-          <span class="privacy-police"><a href="">Privacy Policy</a> </span>
+          <a href="" class="privacy-police">Privacy Policy</a>
           </label>
-        </div>
+        
         <button type="submit" class="submit-btn">Send</button>
         </form>
       </div>
