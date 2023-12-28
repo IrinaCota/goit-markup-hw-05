@@ -499,7 +499,7 @@ img {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  
   border: none;
   cursor: pointer;
 }
@@ -575,7 +575,7 @@ img {
   fill: #ffffff;
 }
 .close-icon {
-  stroke: currentColor;
+  fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -626,7 +626,7 @@ img {
   top: 50%;
   transform: translateY(-50%);
   left: 16px;
-  stroke: currentColor;
+  fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input:focus + .form-icon {
@@ -673,6 +673,7 @@ border-radius: 2px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 cursor: pointer;
 fill: transparent;
+margin-right: 8px;
 }
 .icon-checked {
  opacity: 0;
